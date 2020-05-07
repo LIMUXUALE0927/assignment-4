@@ -1,0 +1,39 @@
+---
+title: "Question1"
+output: html_document
+---
+
+To connect to this MongoDB, you need to either on the campus network or connect via UCDavis VPN.
+
+
+The following code connects to a sample airbnb database. A sample of a document can be found at
+https://docs.atlas.mongodb.com/sample-data/sample-airbnb
+
+In this question, do not download more than enough resources from the server. Let the server to do all the calculations if possible.
+
+
+```{r}
+library(tidyverse)
+library(mongolite)
+
+m <- mongo("airbnb", db = "data", url = "mongodb://mongouser:secret@alan.ucdavis.edu/data")
+```
+
+(a) How many properties are of `room_type == "Entire home/apt"` and number of beds >= 3.
+
+
+
+
+(b) Query the overall experience ratings (`review_scores_rating`) and prices for all properties and plot a scatter plot of `rating` vs `log(price)`.
+
+
+
+(c) Find all property names that have "Washer" and "Kitchen".
+
+
+
+(d) What are the name, price and number of bedrooms for the property with the largest number of reviews has?
+
+
+
+(e) Consider all properties which have more than 100 reviews, what is their average price grouped by property type?
