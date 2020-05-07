@@ -5,11 +5,12 @@ output: html_document
 
 To connect to this MongoDB, you need to either on the campus network or connect via UCDavis VPN.
 
+In this question, do not download more than enough resources from the server. Let the server to do all the calculations if possible.
 
 The following code connects to a sample airbnb database. A sample of a document can be found at
 https://docs.atlas.mongodb.com/sample-data/sample-airbnb
 
-In this question, do not download more than enough resources from the server. Let the server to do all the calculations if possible.
+The collection contains documents that represent the vacation home listing details and reviews of customers about the listing. These documents reflect a randomized subset of the original publicly available source, from several different cities around the globe.
 
 
 ```{r}
