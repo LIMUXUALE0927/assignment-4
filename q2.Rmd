@@ -4,7 +4,7 @@ title: "Question2"
 
 To connect to this MongoDB, you need to either on the campus network or connect via UCDavis VPN.
 
-In this question, do not download more than enough resources from the server. Let the server to do all the calculations if possible.
+In this question, do not download more than enough resources from the server. Let the server to do all the calculations if possible. (Limit the results to the first 10 rows if necessary.)
 
 The following code connects to a sample airbnb database. A sample of a document can be found at
 https://docs.atlas.mongodb.com/sample-data/sample-supplies/
