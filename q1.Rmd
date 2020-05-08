@@ -33,7 +33,7 @@ m <- mongo("airbnb", db = "data", url = "mongodb://mongouser:secret@alan.ucdavis
 
 
 
-(d) What are the name, price and number of bedrooms for the property with the largest number of reviews has?
+(d) What are the name, price and number of bedrooms for the property with the largest number of reviews?
 
 
 
