@@ -29,7 +29,7 @@ m <- mongo("airbnb", db = "data", url = "mongodb://mongouser:secret@alan.ucdavis
 
 
 
-(c) Find all property names that have "Washer" and "Kitchen".
+(c) Find the names of the properties that have "Washer" and "Kitchen".
 
 
 
