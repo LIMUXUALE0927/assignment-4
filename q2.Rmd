@@ -61,8 +61,8 @@ m$aggregate('[
 
 
 
-##### (d) Find the total sum of the transactions for each store.
+##### (d) Find the total number of transactions for each store.
 
 
 
-##### (e) How many notepad were sold in total?
+##### (e) How many notepads were sold in total?
