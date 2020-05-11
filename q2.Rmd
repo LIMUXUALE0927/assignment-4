@@ -48,11 +48,11 @@ m$aggregate('[
 
 
 
-##### (a)  Find the number of items in each transaction.
+##### (a)  Find the number of items in each transaction. (There are multiple `quantity` for each item)
 
 
 
-##### (b) Find the amount of money spent in each transaction. (Don't forget multiple the `quantity` of each item)
+##### (b) Find the amount of money spent in each transaction. (Don't forget multiplying the `quantity` of each item)
 
 
 
